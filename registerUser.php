@@ -1,6 +1,6 @@
 <!DOCTYPE HTML>
 
-<?php session_start();
+<?php
 include('includes/errors.php');
 include('includes/dbconx.php');
 
@@ -12,20 +12,7 @@ include('includes/dbconx.php');
 <meta charset="utf-8">
 <title>Register User</title>
 <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
-<style>
-h3{color:#aaa;}
-	#wrapper{width:70%;margin: 0 auto;border:1px #161D6B solid; text-align: center;font-family: 'Roboto', sans-serif;font-size: 150%;border-radius: 20px;}
-	input{display:inline-block;}
-	input[type =submit]{border:0px;padding:15px;background-color: #161D6B;color:#fff;background-color: #4CAF50; /* Green */
-  border: none;
-  color: white;
-  padding: 15px 32px;
-  text-align: center;
-  text-decoration: none;
-  display: inline-block;
-  font-size: 16px;
-  width:170px;}
-	</style>
+<link rel="stylesheet" type="text/css" href="styles/styles.css">
 </head>
 
 <body>

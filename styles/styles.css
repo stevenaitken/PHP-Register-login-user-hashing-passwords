@@ -1,0 +1,17 @@
+	#wrapper{width:70%;margin: 0 auto; text-align: center;font-family: 'Roboto', sans-serif;font-size: 150%;border-radius: 20px;}
+	input{display:inline-block;}
+	input[type =submit]{width:160px;border:0px;padding:15px;background-color: #4CAF50;color:#fff; cursor: pointer;}
+
+	.button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  width:200px;
+  cursor: pointer;
+}
+h3{color:#aaa;}

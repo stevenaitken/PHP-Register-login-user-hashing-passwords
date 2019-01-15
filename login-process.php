@@ -1,5 +1,5 @@
 <?php 
-session_start();
+
 include('includes/dbconx.php');
 include('includes/errors.php');
 
@@ -14,7 +14,7 @@ $row = $result->fetch_assoc(); // output data of each row
 
 if ($result->num_rows == 1 && $username==$row['username'] && password_verify($password, $row['password']) ) {
   
-$_SESSION['username'] = $username;
+
 header('location:admin.php');
 }
 
